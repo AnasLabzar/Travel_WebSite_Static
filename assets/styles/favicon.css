@@ -30431,7 +30431,8 @@ i[class^=flaticon-]:before {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 19998
+    z-index: 19998;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navigation.sticky-top {
@@ -43266,6 +43267,58 @@ span.select2-selection__rendered {
     max-width: 800px
 }
 
+#toc_container{
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: auto;
+    display: table;
+    font-size: 95%;
+}
+
+#Busiest_Airports_in_the_US{
+    font-size: 30px;
+}
+#Largest_Airports_in_the_USA{
+    font-size: 30px;
+}
+#Best_Airport_in_the_US_for_Your_Holiday_Destination{
+    font-size: 30px;
+}
+#Airlines_in_the_US{
+    font-size: 30px;
+}
+.gem-table .gem-table-responsive .gem-table-style-1{
+    border: medium none;
+}
+
+.gem-table table{
+    border: medium none !important;
+    overflow: visible;
+}
+
+.gem-table table thead tr{
+    border: 1px solid gray;
+}
+
+.gem-table table thead tr th{
+    padding-left: 10px;
+    border: 1px solid gray;
+
+}
+
+.gem-table table tbody{
+    border: 1px solid gray;
+}
+
+.gem-table table tbody tr{
+    border: 1px solid gray;
+}
+.gem-table table tbody tr td{
+    padding-left: 10px;
+    border: 1px solid gray;
+}
 .rlr-landing .rlr-accordion__body {
     padding: var(--spacing-5) var(--spacing-7)
 }
